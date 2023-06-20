@@ -1,0 +1,28 @@
+.div_tate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    
+    position: absolute;
+    width: 440px;
+    left: calc(50% - 440px/2);
+}
+
+.div_yoko {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+}
+
+#input1, #input2, #output1, #output2 {
+    width: 200px;
+    height: 300px;
+}
+
+#button_join {
+    padding: 10px 30px;
+}
